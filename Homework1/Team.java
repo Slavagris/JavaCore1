@@ -1,4 +1,4 @@
-**
+/**
  * JavaCore package Homework1
  *
  * @author Slava Grishin
