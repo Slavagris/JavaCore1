@@ -1,3 +1,8 @@
+/** 
+* JavaCore package homework2 
+* @author Slava Grishin
+* version 16.12.2021
+*/
 package Homework2;
 
 public class MyArraySizeException extends RuntimeException{
