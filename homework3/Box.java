@@ -11,11 +11,11 @@ public class Box<T extends Fruit> {
     public Box(){
 
     }
-    //почему нельзя переопределить метод getWeight в этом классе, если он
-    //наследует Fruits?
+    
+   
     public float getWeight(){
         float weight = 0.0f;
-//        почему цикл fori подчеркивает length?
+
 //        for (int i = 0; i < box.length; i++) {}
         for(T o : box){
             weight += o.getWeight();
@@ -29,7 +29,7 @@ public class Box<T extends Fruit> {
         anotherBox.box.addAll(box);
         box.clear();
     }
-    //еще способ добавить фрукты
+    
     public void addFruit(T fruit, int amount){
         for(int i=0;i<amount;i++){
             box.add(fruit);
