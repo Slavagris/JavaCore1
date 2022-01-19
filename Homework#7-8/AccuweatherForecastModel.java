@@ -1,5 +1,11 @@
 package Homework7;
-
+/**
+* JavaСore 1 Homework#7-8
+*
+* @author Slava Grishin
+* version 17.01.2022
+* 
+*/
 import com.fasterxml.jackson.databind.ObjectMapper;
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
