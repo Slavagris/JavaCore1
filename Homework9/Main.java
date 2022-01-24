@@ -1,6 +1,6 @@
 package Homework9;
 /**
- * JavaCore package Homework1
+ * JavaCore package Homework9
  *
  * @author Slava Grishin
  * version 24.01.2022
